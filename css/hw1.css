@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: tan;
+}
+h1 {
+  color: brown;
+  margin-bottom: 7px;
+}
+h2 {
+  color: burlywood;
+  margin-bottom: 7px;
+}
+h3 {
+  color: #2d0479;
+  margin-bottom: 7px;
+}
+p,
+ul,
+ol,
+dl {
+  margin-bottom: 20px;
+}
+ul,
+ol {
+  margin: 0 0 20px 30px;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  font-style: italic;
+  margin: 8px;
+}
+
+div#wrapper3 {
+  width: 940px;
+  margin: 20px auto 30px;
+  border: 1px solid rgb(80, 2, 2);
+  padding: 20px;
+  background-color: beige;
+}
+img {
+  float: right;
+  border: 5px red solid;
+  margin: 0 0 20px 30px;
+  padding: 10px;
+  background-color: lightcyan;
+}
