@@ -1,46 +1,91 @@
 /* style for my big page*/
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background: gray;
-}
-
-#wrapper{
-    width: 940px;
-    margin: 20px auto;
+body {
 }
 
-header{
-    background: green;
+#wrapper {
+  width: 940px;
+  margin: 20px auto;
 }
 
-nav{
-    height: 50px;
-    background: blue;
+header {
 }
 
-main{
-    background: rgb(252, 122, 0);
-    width: 580px;
-    float: left;
-
-
+nav {
+  height: 50px;
+  line-height: 50px;
+}
+nav ul {
+  list-style-type: none;
 }
 
-aside{
-    background: yellow;
+nav li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  background: rgb(146, 138, 138);
+  color: #fff;
+}
+
+main {
+  width: 580px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+aside {
+
     width: 340px;
+  float: right;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  clear: both;
+}
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  float: left;
+  margin-left: 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+ 
+}
+
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+img.right{
     float: right;
 }
 
-footer{
-    height: 50px;
-    background: red;
-    clear: both;
-}
-
-img{
+img.left{
+    float: left;
 }
