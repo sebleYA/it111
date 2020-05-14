@@ -1,0 +1,46 @@
+/* style for my big page*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: gray;
+}
+
+#wrapper{
+    width: 940px;
+    margin: 20px auto;
+}
+
+header{
+    background: green;
+}
+
+nav{
+    height: 50px;
+    background: blue;
+}
+
+main{
+    background: rgb(252, 122, 0);
+    width: 580px;
+    float: left;
+
+
+}
+
+aside{
+    background: yellow;
+    width: 340px;
+    float: right;
+}
+
+footer{
+    height: 50px;
+    background: red;
+    clear: both;
+}
+
+img{
+}
