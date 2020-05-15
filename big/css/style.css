@@ -5,11 +5,16 @@
   margin: 0;
 }
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(../images/eth-coffee.JPG);
+  background-attachment: fixed;
 }
 
 #wrapper {
   width: 940px;
   margin: 20px auto;
+  background-color: rgb(214, 199, 176, .70);
+  padding: 20px;
 }
 
 header {
@@ -32,6 +37,7 @@ nav li {
 nav a {
   text-decoration: none;
   display: block;
+  color: rgb(14, 9, 9);
 }
 
 nav a:hover {
@@ -46,9 +52,10 @@ main {
 }
 
 aside {
-
-    width: 340px;
+  width: 340px;
   float: right;
+  background-color: rgb(204, 164, 114);
+  padding-left: 20px;
 }
 
 footer {
@@ -65,27 +72,32 @@ footer li {
   margin-left: 30px;
 }
 
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+img.left {
+  float: left;
+  margin: 0 30px 5px 10px;
+}
+
+img.right {
+  float: right;
+  margin: 10px 0 10px 30px;
+}
 img {
-    display: block;
-    max-width: 100%;
-    margin-bottom: 20px;
-    padding: 20px;
- 
+  margin: 0 0 10px 30px;
 }
 
-h1,h2,h3{
-    margin-bottom: 20px;
-}
-
-p{
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-img.right{
-    float: right;
-}
-
-img.left{
-    float: left;
+img.center {
+  display: block;
+  margin: 20px auto;
 }
