@@ -13,7 +13,7 @@ body {
 #wrapper {
   width: 940px;
   margin: 20px auto;
-  background-color: rgb(214, 199, 176, .70);
+  background-color: rgb(214, 199, 176, 0.7);
   padding: 20px;
 }
 
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(146, 138, 138);
+  background: rgb(214, 199, 176);
   color: #fff;
 }
 
@@ -61,6 +61,7 @@ aside {
 footer {
   height: 50px;
   line-height: 50px;
+  background: burlywood;
   clear: both;
 }
 footer ul {
@@ -70,6 +71,11 @@ footer ul {
 footer li {
   float: left;
   margin-left: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
 }
 
 h1,
@@ -100,4 +106,5 @@ img {
 img.center {
   display: block;
   margin: 20px auto;
+  width: 600px;
 }
