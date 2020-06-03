@@ -7,39 +7,67 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: rgb(245, 217, 184);
+}
+
+header {
+  text-align: center;
+  margin: 20px auto;
 }
 
 #wrapper {
   width: 940px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 img {
   max-width: 100%;
-  margin: 0 auto;
 }
 
-main {
+.main {
   width: 580px;
-  background: rgb(125, 125, 167);
+  height: 100%;
   float: left;
+  margin-bottom: 100px;
 }
 
 aside {
   width: 340px;
   float: right;
+  background-color: rgb(176, 192, 179);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
 }
 
-footer {
-  height: 40px;
-  clear: both;
+h1 {
+  margin-bottom: 5px;
+  color: rgb(71, 66, 66);
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 15px;
+  line-height: 1.5em;
+  font-family: Tahoma;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(247, 234, 162);
+  text-align: center;
+  border: 2px dotted silver;
+  border-radius: 20px;
+}
 footer ul {
   list-style-type: none;
 }
@@ -48,26 +76,48 @@ footer li {
   line-height: 40px;
   float: left;
   margin-left: 20px;
+  font-size: larger;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font: larger;
+}
+
+a:hover {
+  background-color: lightslategray;
 }
 
 /* style for my form */
-
-form {
-  max-width: 580px;
+.form {
+  margin: 20px;
+  height: 678px;
 }
 
 fieldset {
   padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(243, 196, 109);
+}
+
+legend {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(82, 76, 76);
 }
 
 label {
   display: block;
   margin-bottom: 5px;
+  font-size: 20px;
+  font-family: Verdana;
 }
 
 input {
   width: 80%;
-  height: 20px;
+  height: 30px;
   margin-bottom: 10px;
 }
 
@@ -77,12 +127,36 @@ input[type="radio"] {
   margin-right: 5px;
 }
 
-input[type="submit"] {
+li {
+  list-style-type: none;
+}
+.chkbox {
+  width: auto;
+  height: auto;
+  /* display: inline-block;
+  flex-direction: row; */
+}
+
+input[type="date"] {
   width: auto;
 }
 
-textarea {
-  width: 50%;
-  height: 60px;
+.box-1 {
+  height: 150px;
+  width: 80%;
   margin-bottom: 10px;
+}
+.row {
+  text-align: left;
+  
+}
+.btn {
+  padding: 5px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.thx {
+  text-align: center;
 }

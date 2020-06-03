@@ -6,57 +6,103 @@
     <title>Form</title>
     <link href="css/style.css" type="text/css" rel="stylesheet" />
   </head>
+
   <body>
+    <header>
+      <img src="images/logo.png" alt="playground" />
+    </header>
     <div id="wrapper">
-      <header>
-        <img src="images/logo.png" alt="logo" />
-      </header>
+      <div class="main">
+        <div class="froms">
+          <form action="formhandler.php" method="POST">
+            <fieldset>
+              <legend>
+                Contact Information
+              </legend>
 
-      <main>
-        <form>
-          <fieldset>
-            <h1>Parents Information</h1>
-            <label> Last Name</label>
-            <input type="text" name="lastname" />
-            <label> First Name</label>
-            <input type="text" name="firstname" />
-            <label> Email</label>
-            <input type="email" name="email" />
-            <h1>Child's Information</h1>
-            <label> Name</label>
-            <input type="text" name="name" />
-            <label>Birthday</label>
-            <input type="data" name="birthday" />
-            <label> Gender</label>
-            <label> Male</label>
-            <input type="radio" name="gender" />
-            <label> Female</label>
-            <input type="radio" name="gender" />
-            <label> Comment</label>
-            <textarea name="name"></textarea>
-            <input type="submit" value="submit" />
-          </fieldset>
-        </form>
-      </main>
+              <h1>Parents Information</h1>
+              <label> Last Name</label>
+              <input type="text" name="lastname" required />
+              <label> First Name</label>
+              <input type="text" name="firstname" required />
+              <label> Email</label>
+              <input type="email" name="email" required />
+              <h1>Child's Information</h1>
+              <label> Name</label>
+              <input type="text" name="name" required />
+              <label>Birthday</label>
+              <input type="date" id="birthday" name="birthday" required />
+              <label> Gender</label>
+              <ul>
+                <li>
+                  <input type="radio" name="gender" value="male" required />
+                  Male
+                </li>
+                <li>
+                  <input type="radio" name="gender" value="female" required />
+                  Female
+                </li>
+              </ul>
+              <label>Events</label>
+              <div>
+                <ul>
+                  <li>
+                    <input class="chkbox" type="checkbox" name="checkbox"  />
+                    Birthday Party
+                  </li>
+                  <li>
+                    <input class="chkbox" type="checkbox" name="checkbox" />
+                    Private Playgroup
+                  </li>
+                  <li>
+                    <input class="chkbox" type="checkbox" name="checkbox" />
+                    Team Parties
+                  </li>
+                  <li>
+                    <input class="chkbox" type="checkbox" name="checkbox" />
+                    Fundraisers
+                  </li>
+                </ul>
+              </div>
+              <label> Comment</label>
+              <textarea class="box-1" name="comment" required> </textarea>
 
+              <div class="row">
+                <input class="btn" type="submit" value="Submit" />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
       <aside>
         <h2>Our Playground</h2>
         <img src="images/playground.jpg" alt="playground" />
         <p>
-          Morbi eget pharetra diam. Aliquam et posuere lectus. Suspendisse eu
-          ultrices diam, id consequat sem. Integer suscipit mauris metus, at
-          blandit felis tristique vel. Donec quis dignissim ex. Vivamus arcu
-          mauris, ullamcorper non dui nec, viverra fringilla sapien. Phasellus
-          ultrices semper turpis id auctor.
+          Our playground is a place specifically designed for children to play
+          outdoor or indoor . It is typically designed for all children age
+          group or childern with disabilities. It is a fun place to play and
+          suitable for partents to join with thier kids and play all day long!
         </p>
       </aside>
-
+    </div>
+    <!--end div-->
+    <div class="footer">
       <footer>
         <ul>
           <li>Copyright &copy; 2020</li>
           <li>All Right Reserved</li>
-          <li><a href=""> Web Design by Seble</a></li>
-          <li><a href=""> Valide!</a></li>
+          <li>
+            <a href="http://compass.northseattle.edu/~sabera/it111/index.html">
+              Web Design by Seble</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Esabera%2Fit111%2Fform%2Findex.html"
+            >
+              Valide!</a
+            >
+          </li>
         </ul>
       </footer>
     </div>
