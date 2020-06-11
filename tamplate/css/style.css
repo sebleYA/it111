@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+}
+
+#wrapper {
+  width: 940px;
+  background: yellow;
+  margin: 20px auto;
+}
+
+.position {
+  height: 50px;
+  line-height: 50px;
+  background: darkviolet;
+  margin-bottom: 10px;
+}
+.position ul {
+  list-style: none;
+}
+.position li {
+  width: 20%;
+  float: left;
+}
+.position a {
+  text-decoration: none;
+}
+
+.box-1 {
+  width: 940px;
+  background: pink;
+}
+.tb-1 {
+  width: 920px;
+  border: 1px solid rgb(30, 6, 134);
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.tb-1 td {
+  width: 25%;
+  border: 1px solid rgb(30, 6, 134);
+  padding: 10px;
+  vertical-align: top;
+}
+.tb img {
+  width: 210px;
+}
+.des-1 {
+  font-family: verdana;
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  background: seagreen;
+  margin-top: 30px;
+}
+.container main {
+  width: 580px;
+  float: left;
+  padding: 10px;
+  background-color: red;
+}
+.container p {
+  line-height: 1.5em;
+}
+
+.container aside {
+  width: 340px;
+  float: right;
+  background: sienna;
+  margin-right: 10px;
+}
+/* .blueberry img {
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 100%;
+  } */
+.blueberry {
+  max-width: 960px;
+}
+
+.box-2 {
+  width: 940px;
+  background: darkgray;
+  clear: both;
+}
+.tb-2 {
+  width: 920px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.tb-2 td {
+  width: 25%;
+  border: 1px solid rgb(30, 6, 134);
+  padding: 10px;
+  vertical-align: top;
+}
+.tb-2 img {
+  width: 210px;
+}
+
+.des-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.ft {
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+}
+
+.ft ul {
+  padding-left: 10px;
+}
+.ft li {
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+}
+.ft a {
+  text-decoration: none;
+}
+
+.container-r main {
+  width: 580px;
+  height: 400px;
+  background: purple;
+  float: left;
+  margin-top: 20px;
+}
+.container-r aside {
+  width: 340px;
+  height: 250px;
+  background: salmon;
+  float: right;
+}
+.container-r h1 {
+  color: blue;
+}
+.container-r img {
+  width: 90%;
+  margin: 5px 0 10px 20px;
+}
+aside {
+  padding: 20px;
+}
+aside h2 {
+  margin-bottom: 10px;
+}
+aside p {
+  line-height: 1.6em;
+}
+.paragraph-1 {
+  width: 580px;
+}
+.paragraph-1 h1 {
+  padding: 5px;
+}
+.paragraph-1 p {
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.paragraph-2 {
+  width: 580px;
+  margin-bottom: 20px;
+}
+.paragraph-2 h1 {
+  margin-top: 20px;
+  padding: 10px;
+}
+.paragraph-2 p {
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.button input[type="button"] {
+  margin-left: 50px;
+  padding: 15px;
+  cursor: pointer;
+}
