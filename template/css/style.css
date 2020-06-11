@@ -5,20 +5,22 @@
 }
 
 body {
-  background: lightblue;
 }
 
 #wrapper {
   width: 940px;
-  background: yellow;
   margin: 20px auto;
 }
-
+.logo {
+  margin-right: 5px;
+  float: left;
+}
 .position {
   height: 50px;
   line-height: 50px;
-  background: darkviolet;
   margin-bottom: 10px;
+}
+.position nav {
 }
 .position ul {
   list-style: none;
@@ -33,7 +35,6 @@ body {
 
 .box-1 {
   width: 940px;
-  background: pink;
 }
 .tb-1 {
   width: 920px;
@@ -64,7 +65,6 @@ body {
   width: 580px;
   float: left;
   padding: 10px;
-  background-color: red;
 }
 .container p {
   line-height: 1.5em;
@@ -73,7 +73,6 @@ body {
 .container aside {
   width: 340px;
   float: right;
-  background: sienna;
   margin-right: 10px;
 }
 /* .blueberry img {
@@ -130,28 +129,25 @@ body {
 .ft a {
   text-decoration: none;
 }
-
-.container-r main {
+.main {
   width: 580px;
-  height: 400px;
-  background: purple;
-  float: left;
+  flex-direction: row;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
-.container-r aside {
+.aside {
   width: 340px;
-  height: 250px;
   background: salmon;
   float: right;
 }
-.container-r h1 {
-  color: blue;
+.main h1 {
+  color: rgb(9, 9, 12);
 }
-.container-r img {
+.main img {
   width: 90%;
   margin: 5px 0 10px 20px;
 }
-aside {
+.aside {
   padding: 20px;
 }
 aside h2 {
