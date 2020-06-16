@@ -8,6 +8,7 @@
 #wrapper {
   width: 940px;
   margin: 20px auto;
+  margin-bottom: 50px;
 }
 .logo {
   margin-right: 5px;
@@ -71,14 +72,6 @@
   float: right;
   margin-right: 10px;
 }
-/* .blueberry img {
-    margin-top: 10px;
-    padding: 20px;
-    max-width: 100%;
-  } */
-.blueberry {
-  max-width: 960px;
-}
 
 .box-2 {
   width: 940px;
@@ -112,7 +105,6 @@
   bottom: 0;
   clear: both;
   width: 100%;
-  position: fixed;
 }
 
 .ft ul {
