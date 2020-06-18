@@ -33,22 +33,68 @@ body {
 .position {
   height: 50px;
   line-height: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  background: #5a5943;
+
 }
-.position ul {
-  padding-left: 10px;
+
+.primary ul{ 
+  list-style: none;
+  width: 1000px;
+}
+.primary li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.primary a{
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+.primary a:hover{
+  background: #dad37b;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+.dropdown{
+  display: none;
+}
+.primary li:hover .dropdown{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #5a5943 ;
+  width: 100%;
+
+
+}
+.primary li:hover .dropdown li{
+  float: none;
+  width: auto;
+}
+
+/* .position ul {
+  list-style: none;
 }
 .position li {
   text-align: center;
   width: 25%;
   float: left;
-  padding: 5px;
-  list-style: none;
 }
-
 .position a {
   text-decoration: none;
+  display: block;
+  color:#000
 }
+.position a:hover{
+  background: #dad37b;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+} */
 
 .box1 {
   width: 940px;
@@ -131,7 +177,14 @@ tr{
   float: left;
   margin-left: 15px;
 }
+.footer a{
+  color: #a3ac7a;
 
+}
+.footer a:hover{
+  color: white;
+}
+/* style for my contact */
 .container-c {
   max-width: 1170px;
   margin: 0px auto;
@@ -209,7 +262,7 @@ ul {
   outline: 0;
   transition: background-color 2s ease-out;
 }
-
+/* style for my about page */
 #banner {
   width: 940px;
   height: 400px;
@@ -217,18 +270,38 @@ ul {
 }
 .food {
   width: 580px;
+  margin-bottom: 5px;
+
+
 }
 .food p {
+  margin-bottom: 10px;
   line-height: 1.5;
-  color: green;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.headline {
-  color: brown;
+.food blockquote{
+  font-size: 1.424em;
+  font-style: italic;
+  color: black;
+  border-left: 30px solid #6e7452;
+  padding-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.headline, h2 {
+  color: rgb(129, 34, 34);
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+/* style for my reciepe page */
 .main2{
   width: 580px;
   float: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+.main2 h1{
+  margin-bottom: 10px;
 }
 .main2 img{
   max-width: 100%;
@@ -236,10 +309,29 @@ ul {
 .aside2{
   width: 340px;
   float:right ;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.aside2 h3{
+  margin-bottom: 20px;
+}
+.aside2 p{
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .instruction{
   width: 580px;
   clear: both;
+  margin-bottom: 10px;
+}
+.instruction p{
+  line-height: 1.5;
+  padding: 10px;
+}
+.thx{
+  text-align: center;
+
 }
 /* large screen */
 @media (min-width: 700px) {
